@@ -1,6 +1,7 @@
 package com.cloudbrain.coolstuffmod.main;
 
 import com.cloudbrain.coolstuffmod.item.ModItems;
+import com.cloudbrain.coolstuffmod.ui.ModTabs;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
@@ -16,5 +17,6 @@ public class CoolStuffMod
     public CoolStuffMod(IEventBus modEventBus, ModContainer modContainer)
     {
         ModItems.ITEMS.register(modEventBus);
+        ModTabs.CREATIVE_TABS.register(modEventBus);
     }
 }

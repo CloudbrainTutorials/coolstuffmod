@@ -1,3 +1,6 @@
 {
-  "item.coolstuffmod.orange": "Orange"
+  "item.coolstuffmod.orange": "Orange",
+
+  "itemGroup.coolstuffmod": "Cool Items",
+  "blockGroup.coolstuffmod": "Cool Blocks"
 }
