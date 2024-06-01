@@ -1,5 +1,6 @@
 package com.cloudbrain.coolstuffmod.main;
 
+import com.cloudbrain.coolstuffmod.block.ModBlocks;
 import com.cloudbrain.coolstuffmod.item.ModItems;
 import com.cloudbrain.coolstuffmod.ui.ModTabs;
 import org.slf4j.Logger;
@@ -17,6 +18,7 @@ public class CoolStuffMod
     public CoolStuffMod(IEventBus modEventBus, ModContainer modContainer)
     {
         ModItems.ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
         ModTabs.CREATIVE_TABS.register(modEventBus);
     }
 }

@@ -1,5 +1,6 @@
 package com.cloudbrain.coolstuffmod.ui;
 
+import com.cloudbrain.coolstuffmod.block.ModBlocks;
 import com.cloudbrain.coolstuffmod.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -27,8 +28,11 @@ public class ModTabs {
             CREATIVE_TABS.register("coolstuffblocks", () -> CreativeModeTab.builder()
                     .title(Component.translatable("blockGroup.coolstuffmod"))
                     .withTabsBefore(COOL_STUFF_ITEMS.getKey())
-                    .icon(() -> ModItems.ORANGE.get().getDefaultInstance())
+                    .icon(() -> ModItems.CHECKERED_TILE.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.ORANGE.get());
+                        output.accept(ModBlocks.CHECKERED_TILE.get());
+                        output.accept(ModBlocks.BLEEDING_LOG.get());
+                        output.accept(ModBlocks.BLEEDING_PLANKS.get());
+                        output.accept(ModBlocks.BLEEDING_SLAB.get());
                     }).build());
 }

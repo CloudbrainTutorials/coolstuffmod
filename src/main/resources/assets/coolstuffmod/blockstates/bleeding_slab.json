@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "coolstuffmod:block/bleeding_slab"
+    },
+    "type=double": {
+      "model": "coolstuffmod:block/bleeding_planks"
+    },
+    "type=top": {
+      "model": "coolstuffmod:block/bleeding_slab_top"
+    }
+  }
+}

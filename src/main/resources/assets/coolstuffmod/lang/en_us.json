@@ -1,6 +1,11 @@
 {
   "item.coolstuffmod.orange": "Orange",
 
+  "block.coolstuffmod.checkered_tile": "Checkered Tile",
+  "block.coolstuffmod.bleeding_log": "Bleeding Log",
+  "block.coolstuffmod.bleeding_planks": "Bleeding Planks",
+  "block.coolstuffmod.bleeding_slab": "Bleeding Slab",
+
   "itemGroup.coolstuffmod": "Cool Items",
   "blockGroup.coolstuffmod": "Cool Blocks"
 }
