@@ -34,5 +34,6 @@ public class ModTabs {
                         output.accept(ModBlocks.BLEEDING_LOG.get());
                         output.accept(ModBlocks.BLEEDING_PLANKS.get());
                         output.accept(ModBlocks.BLEEDING_SLAB.get());
+                        output.accept(ModBlocks.BIG_MUSHROOM.get());
                     }).build());
 }

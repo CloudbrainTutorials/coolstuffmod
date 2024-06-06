@@ -17,4 +17,5 @@ public class ModItems {
     public static final DeferredItem<BlockItem> BLEEDING_LOG = ITEMS.registerSimpleBlockItem("bleeding_log", ModBlocks.BLEEDING_LOG);
     public static final DeferredItem<BlockItem> BLEEDING_PLANKS = ITEMS.registerSimpleBlockItem("bleeding_planks", ModBlocks.BLEEDING_PLANKS);
     public static final DeferredItem<BlockItem> BLEEDING_SLAB = ITEMS.registerSimpleBlockItem("bleeding_slab", ModBlocks.BLEEDING_SLAB);
+    public static final DeferredItem<BlockItem> BIG_MUSHROOM = ITEMS.registerSimpleBlockItem("big_mushroom", ModBlocks.BIG_MUSHROOM);
 }

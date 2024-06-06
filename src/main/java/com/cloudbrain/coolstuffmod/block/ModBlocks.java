@@ -1,7 +1,9 @@
 package com.cloudbrain.coolstuffmod.block;
 
+import net.minecraft.world.item.component.SuspiciousStewEffects;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -23,4 +25,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> BLEEDING_SLAB = BLOCKS.register("bleeding_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+
+    public static final DeferredBlock<Block> BIG_MUSHROOM = BLOCKS.register("big_mushroom",
+            () -> new FlowerBlock(SuspiciousStewEffects.EMPTY, BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_MUSHROOM)));
 }
