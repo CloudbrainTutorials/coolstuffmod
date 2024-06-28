@@ -22,6 +22,8 @@ public class ModTabs {
                     .icon(() -> ModItems.ORANGE.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.ORANGE.get());
+                        output.accept(ModItems.DRIED_ORANGE.get());
+                        output.accept(ModItems.TEMPERED_IRON_INGOT.get());
                     }).build());
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> COOL_STUFF_BLOCKS =

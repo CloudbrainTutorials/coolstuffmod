@@ -8,4 +8,7 @@ public class ModFoods {
     public static final FoodProperties ORANGE = new FoodProperties.Builder().nutrition(4)
             .saturationModifier(0.3f).alwaysEdible()
             .effect(new MobEffectInstance(MobEffects.JUMP, 100, 3), 1).build();
+
+    public static final FoodProperties DRIED_ORANGE = new FoodProperties.Builder().nutrition(6)
+            .saturationModifier(0.5f).build();
 }
